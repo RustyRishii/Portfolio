@@ -5,7 +5,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col items-start sm:items-start">
         <h1 className="text-4xl font-bold mb-4 text-left max-w-2xl mx-auto">
-          Hi, I'm Rishikesh.
+          Hi, I&apos;m Rishikesh.
         </h1>
         <ul className="flex items-start gap-6">
           <li>
@@ -61,7 +61,7 @@ export default function Home() {
           </li>
         </ul>
         <p className="text-lg max-w-2xl mx-auto text-left mt-4">
-          I'm a full stack mobile app developer with hands on experience in
+          I&apos;m a full stack mobile app developer with hands on experience in
           cross platform & Native app development. I like exploring backend
           engineering & I also like swimming, cycling & running.
         </p>
