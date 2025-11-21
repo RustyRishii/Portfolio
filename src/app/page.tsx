@@ -11,35 +11,30 @@ export default function Home() {
         <SocialLinks />
 
         <p className="text-lg max-w-2xl mx-auto text-left mt-4">
-          I&apos;m a full stack mobile app developer with hands on experience in
-          cross platform & Native app development. I like exploring backend
-          engineering & I also like swimming, cycling & running.
+          I&apos;m a <span className="font-bold" >software engineer</span> with hands on experience in
+          cross platform & Native app development. I like  exploring <span className="font-bold">Cloud/Infrastructure</span> & I also like swimming & cycling.
         </p>
 
-        {/* <div className="pt-4">
-          <p className="text-3xl pb-4">Projects</p>
+        {/* <p className="mt-8 text-3xl font-bold">Projects</p>
 
-          <Link href={"Projects/MobileApps"}>
-            <div className="flex flex-row border-2 border-emerald-500 rounded-2xl p-4 ">
-              <p>Mobile Apps</p>
-              <Image
-                src="/twitter.svg"
-                width={50}
-                height={50}
-                alt="Mobile apps logo"
-              />
-            </div>
-          </Link>
-
-          <Link href={"Projects/ChromeExtns"}>
-            <div className="border-2 border-emerald-500 rounded-2xl p-4">
-              <p>Chrome Extensions</p>
-            </div>
-          </Link>
+        <div className="mt-4 flex gap-8 items-center">
+          <p className=" text-xl font-bold relative cursor-pointer group hover:text-emerald-500">
+            <span className="relative z-10">Chrome extension</span>
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-current transition-all duration-300 group-hover:w-full"></span>
+          </p>
+          <p className=" text-xl font-bold relative cursor-pointer group hover:text-emerald-500">
+            <span className="relative z-10">Mobile apps</span>
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-current transition-all duration-300 group-hover:w-full"></span>
+          </p>
+          <p className=" text-xl font-bold relative cursor-pointer group hover:text-emerald-500">
+            <span className="relative z-10">Web apps</span>
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-current transition-all duration-300 group-hover:w-full"></span>
+          </p>
         </div> */}
       </main>
 
       <footer className="row-start-3 flex items-center justify-center"></footer>
     </div>
+
   );
 }
